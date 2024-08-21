@@ -1,0 +1,29 @@
+.list-table-format{
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 1fr .5fr;
+    align-items: center;
+    gap: .4rem;
+    width: 100%;
+    padding: .8rem .9rem;
+    border: 1px solid var(--grey-color);
+    font-size: .8rem;
+    & img{
+        width: 4rem;
+    }
+    & .title{
+        background: var(--white-color);    
+    }
+}
+@media (width<=600px) {
+    .list-table-format{
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 1rem;
+        & title{
+            display: none;
+        }
+    }
+}
+.cursor{
+    cursor: pointer;
+}

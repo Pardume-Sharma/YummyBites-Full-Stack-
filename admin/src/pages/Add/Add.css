@@ -1,0 +1,73 @@
+.add{
+    width: 70%;
+    margin-left: 1.4rem;
+    margin-top: 3rem;
+    color: var(--grey-color);
+    font-size: 1rem;
+    & form
+    {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid var(--grey-color);
+        background-color: transparent;
+        color: var(--black);
+        font-size: 1rem;
+        & input
+        {
+            width: 100%;
+            padding:.5rem;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid var(--grey-color);
+        }
+        & button
+        {
+            width: 100%;
+            padding:.5rem 1rem;
+            background-color: var(--primary-color);
+            color: var(--white-color);
+            width: 5rem;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            transition: background-color.2s ease;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+}
+.add-img-upload img
+{
+    width: 5.8rem;
+}
+.add-product-name,.add-product-description{
+    width: max(40%,280px);
+    textarea{
+        padding: .5rem;
+    }
+}
+.add-product-name input,.add-product-description textare{
+    padding: .4rem;
+}
+.add-category-price{
+    display: flex;
+    gap: 1.4rem;
+}
+.add-category-price select,.add-category-price input {
+    max-width: 120px;
+    padding: .4rem;
+}
+.add-btn{
+    .add-btn{
+        max-width: 120px;
+        border: none;
+        background: var(--black-color);
+        color: var(--white-color);
+        cursor: pointer;
+    }
+}
